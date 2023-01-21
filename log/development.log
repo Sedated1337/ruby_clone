@@ -1,0 +1,1290 @@
+Started GET "/" for 127.0.0.1 at 2023-01-15 01:55:47 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.9ms | Allocations: 931)
+Completed 200 OK in 10ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 7979)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-15 13:50:54 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.2ms | Allocations: 826)
+Completed 200 OK in 7ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 6704)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-16 00:39:41 +0200
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for WelcomeController):
+  
+actionpack (7.0.4) lib/abstract_controller/base.rb:146:in `process'
+actionview (7.0.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.5) lib/rack/etag.rb:27:in `call'
+rack (2.2.5) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.5) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.5) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.5) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/cookies.rb:696:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.5) lib/rack/method_override.rb:24:in `call'
+rack (2.2.5) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.5) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2023-01-16 00:40:55 +0200
+Processing by WelcomeController#index as HTML
+Completed 406 Not Acceptable in 3ms (Allocations: 3380)
+
+
+  
+ActionController::MissingExactTemplate (WelcomeController#index is missing a template for request formats: text/html):
+  
+actionpack (7.0.4) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.4) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.4) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.4) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.4) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.4) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.4) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.4) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.4) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.4) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.4) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.4) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.5) lib/rack/etag.rb:27:in `call'
+rack (2.2.5) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.5) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.5) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.5) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/cookies.rb:696:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.5) lib/rack/method_override.rb:24:in `call'
+rack (2.2.5) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.5) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2023-01-16 00:41:26 +0200
+Processing by WelcomeController#index as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 1953)
+
+
+  
+ActionView::MissingTemplate (Missing template welcome/welcome#index, application/welcome#index with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/vlad/ruby_clone/app/views"
+  * "/home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/actiontext-7.0.4/app/views"
+  * "/home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  layouts/welcome
+               layouts/application
+               rails/conductor/action_mailbox/inbound_emails/new
+               rails/conductor/action_mailbox/inbound_emails/sources/new
+               layouts/mailer
+               rails/conductor/action_mailbox/inbound_emails/index):
+  
+app/controllers/welcome_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2023-01-16 00:41:38 +0200
+Processing by WelcomeController#index as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 1693)
+
+
+  
+ActionView::MissingTemplate (Missing template welcome/index with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/vlad/ruby_clone/app/views"
+  * "/home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/actiontext-7.0.4/app/views"
+  * "/home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  rails/conductor/action_mailbox/inbound_emails/index
+               layouts/mailer
+               rails/conductor/action_mailbox/inbound_emails/new
+               rails/conductor/action_mailbox/inbound_emails/sources/new
+               layouts/rails/conductor
+               layouts/welcome):
+  
+app/controllers/welcome_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2023-01-16 00:41:40 +0200
+Processing by WelcomeController#index as HTML
+Completed 500 Internal Server Error in 4ms (Allocations: 1224)
+
+
+  
+ActionView::MissingTemplate (Missing template welcome/index with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/vlad/ruby_clone/app/views"
+  * "/home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/actiontext-7.0.4/app/views"
+  * "/home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  rails/conductor/action_mailbox/inbound_emails/index
+               layouts/mailer
+               rails/conductor/action_mailbox/inbound_emails/new
+               rails/conductor/action_mailbox/inbound_emails/sources/new
+               layouts/rails/conductor
+               layouts/welcome):
+  
+app/controllers/welcome_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2023-01-16 00:41:42 +0200
+Processing by WelcomeController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 1207)
+
+
+  
+ActionView::MissingTemplate (Missing template welcome/index with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/vlad/ruby_clone/app/views"
+  * "/home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/actiontext-7.0.4/app/views"
+  * "/home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  rails/conductor/action_mailbox/inbound_emails/index
+               layouts/mailer
+               rails/conductor/action_mailbox/inbound_emails/new
+               rails/conductor/action_mailbox/inbound_emails/sources/new
+               layouts/rails/conductor
+               layouts/welcome):
+  
+app/controllers/welcome_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2023-01-16 00:42:17 +0200
+Processing by WelcomeController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 1684)
+
+
+  
+ActionView::MissingTemplate (Missing template welcome/index with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/vlad/ruby_clone/app/views"
+  * "/home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/actiontext-7.0.4/app/views"
+  * "/home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  rails/conductor/action_mailbox/inbound_emails/index
+               layouts/mailer
+               rails/conductor/action_mailbox/inbound_emails/new
+               rails/conductor/action_mailbox/inbound_emails/sources/new
+               layouts/rails/conductor
+               layouts/welcome):
+  
+app/controllers/welcome_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2023-01-16 00:42:18 +0200
+Processing by WelcomeController#index as HTML
+Completed 500 Internal Server Error in 4ms (Allocations: 1222)
+
+
+  
+ActionView::MissingTemplate (Missing template welcome/index with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/vlad/ruby_clone/app/views"
+  * "/home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/actiontext-7.0.4/app/views"
+  * "/home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  rails/conductor/action_mailbox/inbound_emails/index
+               layouts/mailer
+               rails/conductor/action_mailbox/inbound_emails/new
+               rails/conductor/action_mailbox/inbound_emails/sources/new
+               layouts/rails/conductor
+               layouts/welcome):
+  
+app/controllers/welcome_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2023-01-16 00:42:20 +0200
+Processing by WelcomeController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 1205)
+
+
+  
+ActionView::MissingTemplate (Missing template welcome/index with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/vlad/ruby_clone/app/views"
+  * "/home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/actiontext-7.0.4/app/views"
+  * "/home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  rails/conductor/action_mailbox/inbound_emails/index
+               layouts/mailer
+               rails/conductor/action_mailbox/inbound_emails/new
+               rails/conductor/action_mailbox/inbound_emails/sources/new
+               layouts/rails/conductor
+               layouts/welcome):
+  
+app/controllers/welcome_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2023-01-16 00:42:44 +0200
+Processing by WelcomeController#index as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 1792)
+
+
+  
+ActionView::MissingTemplate (Missing template welcome/index with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/vlad/ruby_clone/app/views"
+  * "/home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/actiontext-7.0.4/app/views"
+  * "/home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  rails/conductor/action_mailbox/inbound_emails/index
+               layouts/mailer
+               rails/conductor/action_mailbox/inbound_emails/new
+               rails/conductor/action_mailbox/inbound_emails/sources/new
+               layouts/rails/conductor
+               layouts/welcome):
+  
+app/controllers/welcome_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2023-01-16 00:42:56 +0200
+Processing by WelcomeController#index as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 1686)
+
+
+  
+ActionView::MissingTemplate (Missing template welcome/index with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/vlad/ruby_clone/app/views"
+  * "/home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/actiontext-7.0.4/app/views"
+  * "/home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  rails/conductor/action_mailbox/inbound_emails/index
+               layouts/mailer
+               rails/conductor/action_mailbox/inbound_emails/new
+               rails/conductor/action_mailbox/inbound_emails/sources/new
+               layouts/rails/conductor
+               layouts/welcome):
+  
+app/controllers/welcome_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2023-01-16 00:43:35 +0200
+Processing by WelcomeController#index as HTML
+Completed 406 Not Acceptable in 1ms (Allocations: 610)
+
+
+  
+ActionController::MissingExactTemplate (WelcomeController#index is missing a template for request formats: text/html):
+  
+actionpack (7.0.4) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.4) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.4) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.4) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.4) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.4) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.4) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.4) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.4) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.4) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.4) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.4) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.5) lib/rack/etag.rb:27:in `call'
+rack (2.2.5) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.5) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.5) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.5) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/cookies.rb:696:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.5) lib/rack/method_override.rb:24:in `call'
+rack (2.2.5) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.5) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2023-01-16 00:45:06 +0200
+Processing by WelcomeController#index as HTML
+Completed 406 Not Acceptable in 1ms (Allocations: 696)
+
+
+  
+ActionController::MissingExactTemplate (WelcomeController#index is missing a template for request formats: text/html):
+  
+actionpack (7.0.4) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.4) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.4) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.4) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.4) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.4) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.4) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.4) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.4) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.4) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.4) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.4) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.5) lib/rack/etag.rb:27:in `call'
+rack (2.2.5) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.5) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.5) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.5) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/cookies.rb:696:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.5) lib/rack/method_override.rb:24:in `call'
+rack (2.2.5) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.5) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2023-01-16 00:45:07 +0200
+Processing by WelcomeController#index as HTML
+Completed 406 Not Acceptable in 1ms (Allocations: 530)
+
+
+  
+ActionController::MissingExactTemplate (WelcomeController#index is missing a template for request formats: text/html):
+  
+actionpack (7.0.4) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.4) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.4) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.4) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.4) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.4) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.4) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.4) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.4) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.4) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.4) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.4) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.5) lib/rack/etag.rb:27:in `call'
+rack (2.2.5) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.5) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.5) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.5) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/cookies.rb:696:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.5) lib/rack/method_override.rb:24:in `call'
+rack (2.2.5) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.5) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2023-01-16 00:45:16 +0200
+Processing by WelcomeController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 1717)
+
+
+  
+ActionView::MissingTemplate (Missing template welcome/index with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/vlad/ruby_clone/app/views"
+  * "/home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/actiontext-7.0.4/app/views"
+  * "/home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  rails/conductor/action_mailbox/inbound_emails/index
+               layouts/welcome/index
+               layouts/mailer
+               rails/conductor/action_mailbox/inbound_emails/new
+               rails/conductor/action_mailbox/inbound_emails/sources/new
+               layouts/rails/conductor):
+  
+app/controllers/welcome_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2023-01-16 00:45:18 +0200
+Processing by WelcomeController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 1231)
+
+
+  
+ActionView::MissingTemplate (Missing template welcome/index with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/vlad/ruby_clone/app/views"
+  * "/home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/actiontext-7.0.4/app/views"
+  * "/home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  rails/conductor/action_mailbox/inbound_emails/index
+               layouts/welcome/index
+               layouts/mailer
+               rails/conductor/action_mailbox/inbound_emails/new
+               rails/conductor/action_mailbox/inbound_emails/sources/new
+               layouts/rails/conductor):
+  
+app/controllers/welcome_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2023-01-16 00:46:28 +0200
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb
+  Rendered welcome/index.html.erb (Duration: 0.4ms | Allocations: 139)
+Completed 200 OK in 2ms (Views: 1.7ms | Allocations: 1293)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-16 00:49:06 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 320.5ms | Allocations: 83461)
+  Rendered layout layouts/application.html.erb (Duration: 331.9ms | Allocations: 97353)
+Completed 200 OK in 333ms (Views: 333.1ms | Allocations: 98500)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-16 00:49:30 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 866)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 3516)
+Completed 200 OK in 19ms (Views: 18.2ms | Allocations: 4614)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-16 00:49:42 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 867)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 3488)
+Completed 200 OK in 5ms (Views: 4.8ms | Allocations: 4586)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-16 00:52:31 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 18.9ms | Allocations: 22049)
+  Rendered layout layouts/application.html.erb (Duration: 21.1ms | Allocations: 24673)
+Completed 200 OK in 23ms (Views: 22.4ms | Allocations: 25771)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-16 00:53:58 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 575)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 2831)
+Completed 200 OK in 3ms (Views: 2.7ms | Allocations: 3146)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-16 01:24:55 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 732)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 14337)
+Completed 200 OK in 8ms (Views: 8.2ms | Allocations: 15194)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-16 01:25:41 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 733)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 14332)
+Completed 200 OK in 9ms (Views: 9.0ms | Allocations: 15184)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-16 01:25:42 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 575)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 2845)
+Completed 200 OK in 3ms (Views: 2.6ms | Allocations: 3173)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-16 01:27:03 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 732)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 14429)
+Completed 200 OK in 14ms (Views: 13.7ms | Allocations: 15286)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-16 01:33:09 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 876)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 5273)
+Completed 500 Internal Server Error in 22ms (Allocations: 6374)
+
+
+  
+ActionView::Template::Error (Missing partial welcome/_header, application/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/vlad/ruby_clone/app/views"
+  * "/home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/actiontext-7.0.4/app/views"
+  * "/home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  layouts/header
+               action_text/contents/content
+               action_text/attachment_galleries/attachment_gallery
+               layouts/action_text/contents/content
+               action_text/attachables/remote_image
+               action_text/attachables/missing_attachable):
+    11:   </head>
+    12: 
+    13:   <body>
+    14:     <%= render "header" %>
+    15:     <%= yield %>
+    16:     <%# render "footer" %>
+    17:   </body>
+  
+app/views/layouts/application.html.erb:14
+Started GET "/" for 127.0.0.1 at 2023-01-16 01:35:39 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 875)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 110)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 3800)
+Completed 200 OK in 22ms (Views: 20.2ms | Allocations: 4904)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-01-16 01:40:07 +0200
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.3ms | Allocations: 132)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 14551)
+Completed 200 OK in 11ms (Views: 10.6ms | Allocations: 15591)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-01-16 01:40:44 +0200
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.7ms | Allocations: 131)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 110)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 3282)
+Completed 200 OK in 14ms (Views: 12.7ms | Allocations: 4273)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-01-16 01:40:55 +0200
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 2445)
+Completed 200 OK in 3ms (Views: 2.5ms | Allocations: 2773)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-16 01:40:57 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 701)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 3044)
+Completed 200 OK in 4ms (Views: 3.5ms | Allocations: 3409)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-16 01:41:13 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 872)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 3780)
+Completed 200 OK in 5ms (Views: 4.4ms | Allocations: 4874)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-16 01:44:10 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 871)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 5505)
+Completed 500 Internal Server Error in 24ms (Allocations: 6585)
+
+
+  
+ActionView::Template::Error (Missing partial welcome/_footer, application/_footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/vlad/ruby_clone/app/views"
+  * "/home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/actiontext-7.0.4/app/views"
+  * "/home/vlad/.rvm/gems/ruby-3.0.5@ruby_clone/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  layouts/footer
+               action_text/contents/content
+               layouts/action_text/contents/content
+               layouts/header
+               action_text/attachment_galleries/attachment_gallery
+               action_text/attachables/remote_image):
+    13:   <body>
+    14:     <%= render "layouts/header" %>
+    15:     <%= yield %>
+    16:     <%= render "footer" %>
+    17:   </body>
+    18: </html>
+  
+app/views/layouts/application.html.erb:16
+Started GET "/" for 127.0.0.1 at 2023-01-16 01:44:28 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 875)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 109)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 107)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 4001)
+Completed 200 OK in 7ms (Views: 6.6ms | Allocations: 5105)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-16 19:26:55 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2952.5ms | Allocations: 97299)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 157)
+  Rendered layouts/_footer.html.erb (Duration: 2.7ms | Allocations: 107)
+  Rendered layout layouts/application.html.erb (Duration: 2965.1ms | Allocations: 111966)
+Completed 200 OK in 3066ms (Views: 2967.5ms | ActiveRecord: 0.0ms | Allocations: 117994)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-16 19:31:20 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 707)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 10)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 3823.2ms | Allocations: 43337)
+Completed 200 OK in 3824ms (Views: 3823.5ms | ActiveRecord: 0.0ms | Allocations: 43716)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-16 19:35:15 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 589)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 6182)
+Completed 200 OK in 6ms (Views: 5.4ms | Allocations: 6498)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-16 19:39:15 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 223)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 154)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 106)
+  Rendered layout layouts/application.html.erb (Duration: 56.3ms | Allocations: 6955)
+Completed 200 OK in 58ms (Views: 57.2ms | Allocations: 8070)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-16 19:39:52 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 222)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 6384)
+Completed 200 OK in 6ms (Views: 5.8ms | Allocations: 7498)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-16 19:40:13 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 22.2ms | Allocations: 5590)
+Completed 200 OK in 24ms (Views: 23.4ms | Allocations: 5924)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-16 19:40:14 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 5596)
+Completed 200 OK in 5ms (Views: 5.2ms | Allocations: 5908)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-16 19:40:14 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 5626)
+Completed 200 OK in 13ms (Views: 12.3ms | Allocations: 5942)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-16 19:40:15 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 5605)
+Completed 200 OK in 5ms (Views: 4.4ms | Allocations: 5917)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-16 19:40:22 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 541)
+  Rendered layout layouts/application.html.erb (Duration: 4408.6ms | Allocations: 157311)
+Completed 200 OK in 4422ms (Views: 4418.9ms | ActiveRecord: 0.0ms | Allocations: 163353)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-16 19:42:01 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 772)
+  Rendered layout layouts/application.html.erb (Duration: 27.3ms | Allocations: 7023)
+Completed 200 OK in 33ms (Views: 31.3ms | ActiveRecord: 0.0ms | Allocations: 8187)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/dist/js/bootstrap.bundle.min.js"):
+  
+Started GET "/" for 127.0.0.1 at 2023-01-16 19:51:13 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 763)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 7313)
+Completed 200 OK in 7ms (Views: 6.8ms | Allocations: 8432)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/dist/js/bootstrap.bundle.min.js"):
+  
+Started GET "/" for 127.0.0.1 at 2023-01-16 19:51:14 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 5787)
+Completed 200 OK in 5ms (Views: 4.7ms | Allocations: 6123)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/dist/js/bootstrap.bundle.min.js"):
+  
+Started GET "/" for 127.0.0.1 at 2023-01-16 19:51:15 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 5773)
+Completed 200 OK in 6ms (Views: 5.5ms | Allocations: 6085)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/dist/js/bootstrap.bundle.min.js"):
+  
+Started GET "/" for 127.0.0.1 at 2023-01-16 19:51:15 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | Allocations: 5797)
+Completed 200 OK in 23ms (Views: 22.2ms | Allocations: 6109)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/dist/js/bootstrap.bundle.min.js"):
+  
+Started GET "/" for 127.0.0.1 at 2023-01-16 19:51:19 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 763)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 201)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 7342)
+Completed 200 OK in 8ms (Views: 7.9ms | Allocations: 8433)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/dist/js/bootstrap.bundle.min.js"):
+  
+Started GET "/" for 127.0.0.1 at 2023-01-16 19:51:20 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 5788)
+Completed 200 OK in 6ms (Views: 5.7ms | Allocations: 6117)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/dist/js/bootstrap.bundle.min.js"):
+  
+Started GET "/" for 127.0.0.1 at 2023-01-16 19:51:25 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 674)
+  Rendered layouts/_header.html.erb (Duration: 1.0ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | Allocations: 7253)
+Completed 200 OK in 26ms (Views: 24.9ms | Allocations: 8341)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/dist/js/bootstrap.bundle.min.js"):
+  
+Started GET "/" for 127.0.0.1 at 2023-01-16 19:52:08 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 635)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 7442)
+Completed 200 OK in 9ms (Views: 8.1ms | Allocations: 8546)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/dist/js/bootstrap.bundle.min.js"):
+  
+Started GET "/" for 127.0.0.1 at 2023-01-16 19:53:25 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 635)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 201)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 7467)
+Completed 200 OK in 8ms (Views: 7.6ms | Allocations: 8573)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/dist/js/bootstrap.bundle.min.js"):
+  
+Started GET "/" for 127.0.0.1 at 2023-01-16 19:55:28 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 623)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 7448)
+Completed 200 OK in 11ms (Views: 10.1ms | Allocations: 8553)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-16 20:00:29 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 622)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 200)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 6087)
+Completed 200 OK in 7ms (Views: 6.7ms | Allocations: 7197)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 01:23:57 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 944)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 214)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 311.3ms | Allocations: 34021)
+Completed 200 OK in 326ms (Views: 321.7ms | ActiveRecord: 0.0ms | Allocations: 40051)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 01:28:23 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 622)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 206)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 22.8ms | Allocations: 6276)
+Completed 200 OK in 29ms (Views: 26.8ms | ActiveRecord: 0.0ms | Allocations: 7439)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 01:28:27 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 4534)
+Completed 200 OK in 4ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 4873)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 01:30:42 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 622)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 206)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 23.4ms | Allocations: 6347)
+Completed 200 OK in 29ms (Views: 27.0ms | Allocations: 7449)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 01:53:48 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 4528)
+Completed 200 OK in 4ms (Views: 4.0ms | Allocations: 4856)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 01:54:40 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 622)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 206)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 57.8ms | Allocations: 19952)
+Completed 200 OK in 63ms (Views: 61.6ms | Allocations: 21046)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 01:56:39 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 627)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 206)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 7996)
+Completed 200 OK in 8ms (Views: 7.9ms | Allocations: 9109)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 01:56:40 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 6117)
+Completed 200 OK in 6ms (Views: 6.1ms | Allocations: 6445)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 01:57:11 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 6117)
+Completed 200 OK in 5ms (Views: 5.1ms | Allocations: 6429)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 02:00:06 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 6107)
+Completed 200 OK in 5ms (Views: 5.1ms | Allocat              Started GET "/" for 127.0.0.1 at 2023-01-17 18:58:11 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 23.1ms | Allocations: 944)
+  Rendered layouts/_header.html.erb (Duration: 15.9ms | Allocations: 219)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 7300.8ms | Allocations: 221205)
+Completed 200 OK in 7307ms (Views: 7302.6ms | ActiveRecord: 0.0ms | Allocations: 227236)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-01-17 18:59:42 +0200
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 42.2ms | Allocations: 128)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 10)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 49.9ms | Allocations: 9082)
+Completed 200 OK in 51ms (Views: 50.3ms | ActiveRecord: 0.0ms | Allocations: 9454)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 19:06:10 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 9018)
+Completed 200 OK in 8ms (Views: 7.8ms | Allocations: 9334)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 19:07:32 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 8960)
+Completed 200 OK in 8ms (Views: 7.5ms | Allocations: 9276)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 19:08:55 +0200
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 8973)
+Completed 200 OK in 8ms (Views: 8.2ms | Allocations: 9289)
+
+
