@@ -1,0 +1,5 @@
+uk:
+  hello: "Hello world"
+  welcome:
+    title: "Ruby Clone"
+    description: "Тут ти зможеш знайти свій улюблений рецепт"
