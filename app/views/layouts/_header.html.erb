@@ -6,11 +6,19 @@
         </a>
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="#" class="nav-link px-2 link-secondary">Overview</a></li>
-          <li><a href="#" class="nav-link px-2 link-dark">Inventory</a></li>
-          <li><a href="#" class="nav-link px-2 link-dark">Customers</a></li>
-          <li><a href="#" class="nav-link px-2 link-dark">Products</a></li>
-        </ul>     
+          <li>
+            <%= link_to t('header.menu.recipes'), recipes_path, class: current_link_class(recipes_path) %>
+          </li>
+          <li>
+            <%= link_to t('header.menu.advices'), advices_path, class: current_link_class(advices_path) %>
+          </li>
+          <li>
+            <%= link_to t('header.menu.news'), news_path, class: current_link_class(news_path) %>
+          </li>
+          <li>
+            <%= link_to t('header.menu.donate'), donate_path, class: current_link_class(donate_path) %>
+          </li>
+        </ul>
       </div>
     </div>
   </header>
