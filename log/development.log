@@ -3231,3 +3231,16 @@ Processing by ArticlesController#donate as HTML
 Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 12286)
 
 
+  [1m[35m (1223.1ms)[0m  [1m[35mCREATE DATABASE "ruby_clone_dev" ENCODING = 'utf8'[0m
+  [1m[35m (1089.4ms)[0m  [1m[35mCREATE DATABASE "ruby_clone_test" ENCODING = 'utf8'[0m
+Started GET "/donate" for 127.0.0.1 at 2023-01-30 05:30:42 +0200
+Processing by ArticlesController#donate as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1697)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 678)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 167)
+  Rendered layout layouts/application.html.erb (Duration: 53.3ms | Allocations: 47765)
+Completed 200 OK in 58ms (Views: 55.9ms | ActiveRecord: 0.0ms | Allocations: 53776)
+
+
