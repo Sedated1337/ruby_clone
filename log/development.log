@@ -3187,3 +3187,47 @@ Processing by ArticlesController#donate as HTML
 Completed 200 OK in 9ms (Views: 8.8ms | Allocations: 9605)
 
 
+Started GET "/donate" for 127.0.0.1 at 2023-01-29 03:22:35 +0200
+Processing by ArticlesController#donate as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 37)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 299)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 24)
+  Rendered layout layouts/application.html.erb (Duration: 27.3ms | Allocations: 9302)
+Completed 200 OK in 29ms (Views: 28.3ms | Allocations: 9599)
+
+
+Started GET "/donate" for 127.0.0.1 at 2023-01-30 04:23:15 +0200
+Processing by ArticlesController#donate as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 95.4ms | Allocations: 1695)
+  Rendered layouts/_header.html.erb (Duration: 25.2ms | Allocations: 675)
+  Rendered layouts/_footer.html.erb (Duration: 15.4ms | Allocations: 167)
+  Rendered layout layouts/application.html.erb (Duration: 580.1ms | Allocations: 46832)
+Completed 200 OK in 650ms (Views: 622.1ms | ActiveRecord: 0.0ms | Allocations: 52843)
+
+
+Started GET "/donate" for 127.0.0.1 at 2023-01-30 04:23:18 +0200
+Processing by ArticlesController#donate as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 61)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 316)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 25)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 9434)
+Completed 200 OK in 8ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 9799)
+
+
+Started GET "/donate" for 127.0.0.1 at 2023-01-30 04:23:54 +0200
+Processing by ArticlesController#donate as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 566)
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 592)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 163)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 11189)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 12286)
+
+
