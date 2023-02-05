@@ -15,6 +15,10 @@ gem "stimulus-rails"
 gem "jbuilder"
 gem 'jquery-rails'
 
+#auth
+gem 'devise'
+gem 'devise-i18n'
+
 # HTML
 gem 'bootstrap', '~> 5.2', '>= 5.2.3'
 

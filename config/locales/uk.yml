@@ -9,3 +9,9 @@ uk:
       advices: "Поради"
       news: "Новини"
       donate: "Підтримати Нас"
+  
+  dropdown:
+    user:
+      settings: "Налаштування"
+      profile:  "Профіль"
+      log_out:  "Вийти"
