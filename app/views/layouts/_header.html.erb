@@ -27,9 +27,7 @@
               <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
             </a>
             <ul class="dropdown-menu text-small">
-              <li><a class="dropdown-item" href="#"></a></li>
-              <li>
-                <%= link_to t('devise.button.new'), edit_user_registration_path, class: 'dropdown-item' %>
+                <%= link_to t('articles.buttons.new'), new_article_path, class: 'dropdown-item' %>
               </li>
               <li>  
                 <%= link_to t('devise.account'), edit_user_registration_path, class: 'dropdown-item' %>
@@ -43,14 +41,14 @@
         <% else %>
           <div class="col-md-3 text-end">
             <%=link_to new_user_session_path do %>
-              <button type="button" class="btn btn-outline-primary me-2">Увійти</button>
+              <button type="button" class="btn btn-outline-primary me-2"><%= t('devise.sessions.new.sign_in')%></button>
             <% end %>
             <%= link_to new_user_registration_path do %>
-              <button type="button" class="btn btn-outline-primary">Зареєструватись</button>
+              <button type="button" class="btn btn-outline-primary"><%= t('devise.registrations.new.sign_up')%></button>
             <% end %>
           </div>
         <% end %>
-        
       </div>
     </div>
 </header>
+
