@@ -7,3 +7,11 @@ application.debug = false
 window.Stimulus   = application
 
 export { application }
+
+import "jquery"
+import "popper"
+import "bootstrap-sprockets"
+import "@rails/actiontext"
+import "trix"
+import "@hotwired/turbo-rails"
+import "controllers"
