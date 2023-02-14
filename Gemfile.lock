@@ -1,5 +1,5 @@
 GEM
-  remote: https://rubygems.org/
+  remote: http://rubygems.org/
   specs:
     actioncable (7.0.4.2)
       actionpack (= 7.0.4.2)
@@ -296,7 +296,7 @@ DEPENDENCIES
   webdrivers
 
 RUBY VERSION
-   ruby 3.0.5p211
+   ruby 3.1.3p185
 
 BUNDLED WITH
    2.4.3
