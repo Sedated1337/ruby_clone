@@ -15,7 +15,11 @@
     <%= form.label :title, style: "display: block" %>
     <%= form.text_field :title %>
   </div>
-  <div class="field">
+  <div>
+    <%= form.label :preview_image, style: "display: block" %>
+    <%= form.file_field :preview_img %>
+  </div>
+  <div>
     <%= form.label :body, style: "display: block" %>
     <%= form.rich_text_area :body %>
   </div>

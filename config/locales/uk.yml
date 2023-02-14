@@ -2,14 +2,12 @@ uk:
   welcome:
     title: "Patel'nya" 
     description: "Тут ти зможеш знайти свій улюблений рецепт"
-
   header:
     menu:
       recipes: "Рецепти"
       advices: "Поради"
       news: "Новини"
       donate: "Підтримати Нас"
-  
   articles: 
     buttons:
       new: "Створити пост"

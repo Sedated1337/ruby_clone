@@ -1,12 +1,12 @@
-<header class="p-3 mb-3 border-bottom">
+<header class="p-3 mb-3">
     <div class="container">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
         <%= link_to root_path do %>
-          <%= image_tag("logo2.webp", width: 100) %>
+          <%= image_tag("Patelnya3.webp", width: 100) %>
         <% end %>
       
 
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
           <li>
             <%= link_to t('header.menu.recipes'), recipes_path, class: current_link_class(recipes_path) %>
           </li>
@@ -51,4 +51,3 @@
       </div>
     </div>
 </header>
-
