@@ -1,4 +1,15 @@
 uk:
+  activerecord:
+    errors: 
+      models: 
+        article:  
+          attributes:
+            title:  
+              blank: не може бути порожнім
+            body:
+              blank: не може бути порожнім
+            preview_img:
+              blank: не може бути порожнім
   welcome:
     title: "Patel'nya" 
     description: "Тут ти зможеш знайти свій улюблений рецепт"
