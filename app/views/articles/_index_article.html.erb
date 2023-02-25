@@ -13,8 +13,10 @@
           <%= link_to article do %>
             <button type="button" class="btn btn-sm btn-outline-secondary">Переглянути</button>
           <% end %>
-          <%= link_to edit_article_path(article) do %>
-            <button type="button" class="btn btn-sm btn-outline-secondary">Змінити</button>
+          <% if can? :edit, article %>
+            <%= link_to edit_article_path(article) do %>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Змінити</button>
+            <% end %>
           <% end %>
         </div>
         <small class="text-muted">9 mins</small>

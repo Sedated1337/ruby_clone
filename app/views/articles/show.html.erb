@@ -1,8 +1,15 @@
-<%= render @article %>
-
-<div>
-  <%= link_to "Edit this article", edit_article_path(@article) %> |
-  <%= link_to "Back to articles", articles_path %>
-
-  <%= button_to "Destroy this article", @article, method: :delete %>
+<div class='row'>
+  <div class='col-9'>
+    <%= link_to "Back to articles", articles_path %>
+  </div>
+  <div class='col-3 text-right'>
+    <% if can? :edit, @article %>
+      <%= button_to "Edit this article", edit_article_path(@article), form_class: 'd-inline inline-right' %>
+    <% end %>
+    <% if can? :Destroy, @article %>
+      <%= button_to "Destroy this article", @article, method: :delete, form_class: 'd-inline inline-right' %>
+    <% end %>
+  </div> 
 </div>
+
+<%= render @article %>

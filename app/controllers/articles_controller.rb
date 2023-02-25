@@ -3,25 +3,29 @@ class ArticlesController < ApplicationController
 
   # GET /articles or /articles.json
   def index
-    @articles = Article.all
+    @articles = Article.accessible_by(current_ability)
   end
 
   # GET /articles/1 or /articles/1.json
   def show
+    authorize! :read, @article
   end
 
   # GET /articles/new
   def new
     @article = Article.new
+    authorize! :create, @article
   end
 
   # GET /articles/1/edit
   def edit
+    authorize! :edit, @article
   end
 
   # POST /articles or /articles.json
   def create
     @article = Article.new(article_params)
+    authorize! :create, @article
 
     respond_to do |format|
       if @article.save
@@ -49,6 +53,8 @@ class ArticlesController < ApplicationController
 
   # DELETE /articles/1 or /articles/1.json
   def destroy
+    authorize! :destroy, @article
+
     @article.destroy
 
     respond_to do |format|
